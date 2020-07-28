@@ -68,4 +68,23 @@ header .header--content .header--ilustra img {
   width: 273px;
   height: 130px;
 }
+
+header .header--content .search--button input {
+  position: relative;
+  bottom: 10px;
+  width: 334px;
+  height: 50px;
+  border-radius: 27px;
+  background: #FFFFFF;
+  border: 1px solid #572EE5;
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Roboto',sans-serif;
+  margin-left: 21px;
+  margin-right: 21px;
+  padding-left: 55px;
+  padding-right: 24px;
+  padding-top: 15px;
+  padding-bottom: 13px;
+}
 /*# sourceMappingURL=styles.css.map */
