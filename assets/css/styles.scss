@@ -8,6 +8,7 @@
 
 $color-primary:#50E3C2;
 $color-secundary:#572EE5;
+$color-thirdty:#F3F5F8 ;
 
 
 /* mixins */
@@ -84,10 +85,6 @@ header{
             padding-top: 15px;
             padding-bottom: 13px;
         }
-        
-        
-        
-        
     }
 
 }
@@ -117,4 +114,54 @@ header{
         }
     }
     
+}
+
+.trending-gifos{
+    background-color: $color-thirdty;
+    width: 100%;
+    height: 430px;
+    margin-top: 45px;
+
+
+    .trending-gifos-content{
+           position: relative;
+           top:46px;
+        h2{
+            font-family: 'Montserrat' ,bold;
+            color: $color-secundary;
+            font-size: 20px;
+            text-align: center;
+            line-height: 30px;
+            
+        }
+    
+        .trending-gifos-context{
+            width: 333px;
+            height: 46px;
+            margin-top: 7px;
+            margin-left: 21px;
+            margin-right: 21px;
+            font-size: 16px;
+            color: #000000;
+            text-align: center;
+            line-height: 23px;
+        }
+
+
+    }
+
+
+    .trendin-galery{
+       
+        position: relative;
+        top: 10px;
+        margin-top: 64px;
+        display: flex;
+        justify-content: center;
+       
+        
+    }
+    
+
+
 }
