@@ -7,6 +7,7 @@
 /* variables */
 
 $color-primary:#50E3C2;
+$color-secundary:#572EE5;
 
 
 /* mixins */
@@ -45,7 +46,7 @@ header{
             text-align: center;
             font-family: 'Montserrat' ,bold;
             font-size: 25px;
-            color: #572EE5;
+            color: $color-secundary;
             line-height: 33px; 
             
             span{
@@ -89,4 +90,31 @@ header{
         
     }
 
+}
+
+.trending-content{
+    
+    color:$color-secundary;
+    text-align: center;
+    h2{
+        font-size: 16px;
+        font-family: 'Montserrat' ,bold;
+        line-height: 25px;
+
+    }
+
+    .trending-keywords{
+        width: 225px;
+        height: 50px;
+        margin-top: 2px;
+        margin-left: 75px;
+        margin-right: 75px;
+        font-family: 'Montserrat'
+        p{
+            font-size: 14px;
+            line-height: 25px;
+            
+        }
+    }
+    
 }
