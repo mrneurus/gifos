@@ -142,6 +142,7 @@ header{
             margin-left: 21px;
             margin-right: 21px;
             font-size: 16px;
+            font-family: Roboto,'regular';
             color: #000000;
             text-align: center;
             line-height: 23px;
@@ -168,6 +169,7 @@ header{
 
 
 .footer-gifos{
+    font-family: Roboto,'regular';
     width: 100%;
     height: 196px;
     display: flex;
@@ -176,6 +178,7 @@ header{
     justify-content: space-around;
     h2{
         font-size: 15px;
+        
         
     }
     p{
